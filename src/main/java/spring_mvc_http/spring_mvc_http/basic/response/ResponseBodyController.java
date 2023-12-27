@@ -25,7 +25,6 @@ public class ResponseBodyController {
         return new ResponseEntity<>("ok", HttpStatus.OK);
 
     }
-
     @ResponseBody
     @GetMapping("/response-body-string-v3")
     public String responseBodyV3() {
@@ -50,4 +49,5 @@ public class ResponseBodyController {
         helloData.setAge(20);
         return helloData;
     }
+
 }

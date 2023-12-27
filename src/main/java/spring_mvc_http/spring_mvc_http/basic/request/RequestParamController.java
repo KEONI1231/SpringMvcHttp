@@ -64,7 +64,6 @@ public class RequestParamController {
         return "requestParamV5";
     }
 
-
     @ResponseBody
     @RequestMapping("/request-param-default")
     public String requestParamDefault(
@@ -109,6 +108,4 @@ public class RequestParamController {
         log.info("테스트 !!");
         return "ModelAttributeV2";
     }
-
-
 }
